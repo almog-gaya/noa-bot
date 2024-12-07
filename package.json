@@ -1,0 +1,20 @@
+{
+  "name": "noa-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that sends daily messages",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node src/app.js --test"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+} 
